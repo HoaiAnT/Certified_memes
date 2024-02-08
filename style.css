@@ -1,0 +1,54 @@
+.certificatebl h1{
+    position:absolute;
+    top:9cm;
+    left:11cm;
+    font-size:80px;
+}
+.certificatebl h2{
+    position: absolute;
+    top:12cm;
+    font-size:45px;
+    left:12.5cm;
+}
+.certificatebl h3{
+    position:absolute;
+    top:15.5cm;
+    font-size:20px;
+    left:12.5cm;
+}
+.certificatey1 h1{
+    position:absolute;
+    top:41.5cm;
+    left:9cm;
+    font-size:90px;
+}
+.certificatey1 h2{
+    position:absolute;
+    top:45cm;
+    left:11.5cm;
+    font-size:49px;
+}
+.certificatey1 h3{
+    position:absolute;
+    top:48.5cm;
+    left:11.5cm;
+    font-size:20px;
+}
+.certificater1 h1{
+    position:absolute;
+    top:72cm;
+    left:10cm;
+    font-size:80px;
+}
+.certificater1 h2{
+    position:absolute;
+    font-size:45px;
+    left:12cm;
+    top:75.5cm;
+}
+.certificater1 h3{
+    position:absolute;
+    font-size:20px;
+    left:13cm;
+    top:80cm;
+}

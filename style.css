@@ -52,3 +52,8 @@
     left:13cm;
     top:80cm;
 }
+.right {
+    width: 25vw;
+    background-color: lightgray;
+    padding: 1em;
+}

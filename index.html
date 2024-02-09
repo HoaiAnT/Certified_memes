@@ -13,7 +13,7 @@
     <div class="container">
         <div class="certificatebl">
             <h1>CERTIFICATE</h1>
-            <h2> OF ACHIVEMENT </h2>
+            <h2> OF <input type="text" id="list" placeholder="Lists"> </h2>
             <h3>THIS FOLLOWING AWARD IS GIVEN TO</h3>
             <input type="text" id="name1" class="rename">
             <input type="text" id="details1" placeholder="Type the detail here" class="thedetail">
@@ -25,7 +25,7 @@
             <section class="sig">
                 <input type="text" id="signature1" placeholder="Signature">
                 <hr>
-                <input type="text" id="certificatename1" placeholder="Name">
+                <input type="text" id="certificatename1" placeholder="issue by">
             </section>
             <img src="certificate.png">
             <form>
@@ -34,7 +34,7 @@
         </div>
         <div class="certificatey1">
             <h1>CERTIFICATE</h1>
-            <h2> OF PARTICIPATE </h2>
+            <h2> OF <input type="text" id="list" placeholder="Lists"> </h2>
             <h3>THIS FOLLOWING AWARD IS GIVEN TO</h3>
             <input type="text" id="name2" class="rename">
             <input type="text" id="details2" placeholder="Type the detail here" class="thedetail">
@@ -46,7 +46,7 @@
             <section class="sign">
                 <input type="text" id="signature2" placeholder="Signature">
                 <hr>
-                <input type="text" id="certificatename2" placeholder="Name">
+                <input type="text" id="certificatename2" placeholder="issue by">
             </section>
             <img src="yelcertificate.png">
             <form>
@@ -55,7 +55,7 @@
         </div>
         <div class="certificater1">
             <h1>CERTIFICATE</h1>
-            <h2> OF GRADUATION </h2>
+            <h2> OF <input type="text" id="list" placeholder="Lists"> </h2>
             <h3>THIS CERTIFICATE PRESENT TO</h3>
             <input type="text" id="name3" class="rename">
             <input type="text" id="details3" placeholder="Type the detail here" class="thedetail">
@@ -67,13 +67,29 @@
             <section class="stea">
                 <input type="text" id="signature3" placeholder="Signature">
                 <hr>
-                <input type="text" id="certificatename3" placeholder="Name">
+                <input type="text" id="certificatename3" placeholder="issue by">
             </section>
             <img src="background.png" width="1300px">
             <form>
                 <input type="submit" value="Generate" id="generate3">
             </form>
         </div>
+        <section class="right">
+
+            <form action="" id="myForm">
+    
+                <input type="text" name="name" id="name" placeholder="Name">
+        
+                <select name="type" id="type">
+                    <option value="ACHIVEMENT">ACHIVEMENT</option>
+                    <option value="PARTICIPATION">PARTICIPATION</option>
+                    <option value="INTERNSHIP">INTERNSHIP</option>
+                    <option value="MEMBERSHIP">MEMBERSHIP</option>
+                </select>
+                <input type="submit" value="Generate">
+        
+            </form>
+        </section>
     </div>
 </body>
 

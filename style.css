@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 
 #theDate {
     font-size:50px;
     position: absolute;
-    top: 1060px;
+    top: 1180px;
     left: 370px;
     padding: 10px;
     border-radius: 5px;
@@ -13,7 +14,7 @@
 #theDate1 {
     font-size:45px;
     position: absolute;
-    top: 2800px;
+    top: 2970px;
     left: 370px;
     padding: 10px;
     border-radius: 5px;
@@ -22,7 +23,7 @@
 #theDate2 {
     font-size:50px;
     position: absolute;
-    top: 4400px;
+    top: 4680px;
     left: 370px;
     padding: 10px;
     border-radius: 5px;
@@ -30,33 +31,105 @@
 
 #nameOutput{
     font-family: 'Love Light', cursive;
-    font-size:180px;
+    font-size:190px;
     position:absolute;
-    top:720px;
+    top:790px;
     left:600px;
 }
 
-#name{
-    font-size:50px;
+#nameOutput3{
+    font-family: 'Dancing Script', cursive;
+    font-size:90px;
+    position:absolute;
+    top:1200px;
+    left:1350px;
 }
 
-#name1{
-    font-size:50px;
+#nameOutput4{
+    font-family: 'Dancing Script', cursive;
+    font-size:60px;
+    position:absolute;
+    top:3020px;
+    left:1350px;
 }
 
-#name2{
-    font-size:50px;
-}
-
-#generate{
-    font-size:50px;
-    margin:10px;
+#nameOutput5{
+    font-family: 'Dancing Script', cursive;
+    font-size:90px;
+    position:absolute;
+    top:4730px;
+    left:1330px;
 }
 
 #nameOutput1{
-    top:2600px;
+    top:2650px;
     font-size:200px;
     position:absolute;
     left:600px;
     font-family: 'Lovers Quarrel', cursive;
 }
+
+#nameOutput2{
+    top:4300px;
+    font-size:230px;
+    position:absolute;
+    left:500px;
+    font-family: 'Lovers Quarrel', cursive;
+}
+
+#name{
+    font-size:30px;
+}
+
+#name1{
+    font-size:30px;
+}
+
+#name2{
+    font-size:30px;
+}
+
+#name3{
+    font-size:30px;
+}
+
+#name4{
+    font-size:30px;
+}
+
+#name5{
+    font-size:30px;
+}
+
+#generate{
+    font-size:30px;
+    margin:10px;
+}
+
+#generate1{
+    font-size:30px;
+    margin:10px;
+}
+
+#generate2{
+    font-size:30px;
+    margin:10px;
+}
+
+#generate3{
+    font-size:30px;
+    margin:10px;
+}
+
+#generate4{
+    font-size:30px;
+    margin:10px;
+}
+
+#generate5{
+    font-size:30px;
+    margin:10px;
+}
+
+
+

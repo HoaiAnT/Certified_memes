@@ -81,4 +81,58 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     
     console.log("Ready");
+
+    document.getElementById('name3').addEventListener('input', function (event) {
+        let nameOutput3 = document.getElementById('nameOutput3');
+        nameOutput3.innerText = event.target.value;
+    });
+    
+    document.getElementById("myForm3").addEventListener("submit", function (event) {
+        event.preventDefault(); 
+        let formData3 = new FormData(event.target);
+        formData3 = Object.fromEntries(formData3);
+    
+        let nameOutput3 = document.getElementById('nameOutput3');
+        let info3 = document.getElementById('info3');
+        nameOutput3.innerText = formData3.name;
+        info3.innerText = formData3.type;
+    });
+    
+    console.log("Ready");
+
+    document.getElementById('name4').addEventListener('input', function (event) {
+        let nameOutput4 = document.getElementById('nameOutput4');
+        nameOutput4.innerText = event.target.value;
+    });
+    
+    document.getElementById("myForm4").addEventListener("submit", function (event) {
+        event.preventDefault(); 
+        let formData4 = new FormData(event.target);
+        formData4 = Object.fromEntries(formData4);
+    
+        let nameOutput4 = document.getElementById('nameOutput4');
+        let info4 = document.getElementById('info4');
+        nameOutput4.innerText = formData4.name;
+        info4.innerText = formData4.type;
+    });
+    
+    console.log("Ready");
+
+    document.getElementById('name5').addEventListener('input', function (event) {
+        let nameOutput5 = document.getElementById('nameOutput5');
+        nameOutput5.innerText = event.target.value;
+    });
+    
+    document.getElementById("myForm5").addEventListener("submit", function (event) {
+        event.preventDefault(); 
+        let formData5 = new FormData(event.target);
+        formData5 = Object.fromEntries(formData5);
+    
+        let nameOutput5 = document.getElementById('nameOutput5');
+        let info5 = document.getElementById('info5');
+        nameOutput5.innerText = formData5.name;
+        info5.innerText = formData5.type;
+    });
+    
+    console.log("Ready");
 });

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DMO</title>
+    <title>CRT</title>
     <link rel="stylesheet" href="style.css">
     <script src="myscripts.js"></script>
 </head>
@@ -12,84 +12,105 @@
 <body>
     <div class="container">
         <div class="certificatebl">
-            <h1>CERTIFICATE</h1>
-            <h2> OF <input type="text" id="list" placeholder="Lists"> </h2>
-            <h3>THIS FOLLOWING AWARD IS GIVEN TO</h3>
-            <input type="text" id="name1" class="rename">
-            <input type="text" id="details1" placeholder="Type the detail here" class="thedetail">
+            <button id="print">Print</button>
+            <div class="pagewrapper">
+
+                <section class="left">
+        
+                    <div class="certificate " id="certificate">
+                        <span id="nameOutput" class="visible"></span>
+                        <span id="info"></span>
+                    </div>
+        
+                </section>
+        
+                <section class="right">
+        
+                    <form action="" id="myForm">
+            
+                        <input type="text" name="name" id="name" placeholder="Name">
+                        <input type="submit" value="Generate" id="generate">
+                
+                    </form>
+                </section>    
+            </div>        
             <section class="dat">
-                <input type="text" id="date1" placeholder="Type date here">
-                <hr>
-                <p>DATE</p>
+                <p id="theDate"></p>
             </section>
             <section class="sig">
                 <input type="text" id="signature1" placeholder="Signature">
-                <hr>
-                <input type="text" id="certificatename1" placeholder="issue by">
             </section>
-            <img src="certificate.png">
+            <img src="certifiblue.png" width="2000px">
+            <form>
+                <input type="submit" value="Generate">
+            </form>
+        </div>
+        <div class="certificatey1">
+            <div class="pagewrapper1">
+
+                <section class="left1">
+        
+                    <div class="certificate1 " id="certificate1">
+                        <span id="nameOutput1" class="visible1"></span>
+                        <span id="info1"></span>
+                    </div>
+        
+                </section>
+        
+                <section class="right1">
+        
+                    <form action="" id="myForm1">
+            
+                        <input type="text" name="name" id="name1" placeholder="Name">
+                        <input type="submit" value="Generate1" id="generate1">
+                
+                    </form>
+                </section>    
+            </div>
+            <section class="det">
+                <p id="theDate1"></p>
+            </section>
+            <section class="sign">
+                <input type="text" id="signature2" placeholder="Signature">
+            </section>
+            <img src="certifigreen.png" width="2000px">
             <form>
                 <input type="submit" value="Generate" id="generate1">
             </form>
         </div>
-        <div class="certificatey1">
-            <h1>CERTIFICATE</h1>
-            <h2> OF <input type="text" id="list" placeholder="Lists"> </h2>
-            <h3>THIS FOLLOWING AWARD IS GIVEN TO</h3>
-            <input type="text" id="name2" class="rename">
-            <input type="text" id="details2" placeholder="Type the detail here" class="thedetail">
-            <section class="det">
-                <input type="text" id="date2" placeholder="Type date here">
-                <hr>
-                <p>DATE</p>
-            </section>
-            <section class="sign">
-                <input type="text" id="signature2" placeholder="Signature">
-                <hr>
-                <input type="text" id="certificatename2" placeholder="issue by">
-            </section>
-            <img src="yelcertificate.png">
-            <form>
-                <input type="submit" value="Generate" id="generate2">
-            </form>
-        </div>
         <div class="certificater1">
-            <h1>CERTIFICATE</h1>
-            <h2> OF <input type="text" id="list" placeholder="Lists"> </h2>
-            <h3>THIS CERTIFICATE PRESENT TO</h3>
-            <input type="text" id="name3" class="rename">
-            <input type="text" id="details3" placeholder="Type the detail here" class="thedetail">
+            <div class="pagewrapper2">
+
+                <section class="left2">
+        
+                    <div class="certificate2 " id="certificate2">
+                        <span id="nameOutput2" class="visible2"></span>
+                        <span id="info2"></span>
+                    </div>
+        
+                </section>
+        
+                <section class="right2">
+        
+                    <form action="" id="myForm2">
+            
+                        <input type="text" name="name" id="name2" placeholder="Name">
+                        <input type="submit" value="Generate2" id="generate2">
+                
+                    </form>
+                </section>    
+            </div>
             <section class="dtea">
-                <input type="text" id="date3" placeholder="Type date here">
-                <hr>
-                <p>DATE</p>
+                <p id="theDate2"></p>
             </section>
             <section class="stea">
                 <input type="text" id="signature3" placeholder="Signature">
-                <hr>
-                <input type="text" id="certificatename3" placeholder="issue by">
             </section>
-            <img src="background.png" width="1300px">
+            <img src="cartifiyellow.png" width="2000px">
             <form>
                 <input type="submit" value="Generate" id="generate3">
             </form>
         </div>
-        <section class="right">
-
-            <form action="" id="myForm">
-    
-                <input type="text" name="name" id="name" placeholder="Name">
-        
-                <select name="type" id="type">
-                    <option value="ACHIVEMENT">ACHIVEMENT</option>
-                    <option value="PARTICIPATION">PARTICIPATION</option>
-                    <option value="INTERNSHIP">INTERNSHIP</option>
-                    <option value="MEMBERSHIP">MEMBERSHIP</option>
-                </select>
-                <input type="submit" value="Generate">
-        
-            </form>
-        </section>
     </div>
 </body>
 

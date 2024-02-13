@@ -1,59 +1,62 @@
-.certificatebl h1{
-    position:absolute;
-    top:9cm;
-    left:11cm;
-    font-size:80px;
-}
-.certificatebl h2{
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
+
+#theDate {
+    font-size:50px;
     position: absolute;
-    top:12cm;
+    top: 1060px;
+    left: 370px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#theDate1 {
     font-size:45px;
-    left:12.5cm;
+    position: absolute;
+    top: 2800px;
+    left: 370px;
+    padding: 10px;
+    border-radius: 5px;
 }
-.certificatebl h3{
+
+#theDate2 {
+    font-size:50px;
+    position: absolute;
+    top: 4400px;
+    left: 370px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#nameOutput{
+    font-family: 'Love Light', cursive;
+    font-size:180px;
     position:absolute;
-    top:15.5cm;
-    font-size:20px;
-    left:12.5cm;
+    top:720px;
+    left:600px;
 }
-.certificatey1 h1{
+
+#name{
+    font-size:50px;
+}
+
+#name1{
+    font-size:50px;
+}
+
+#name2{
+    font-size:50px;
+}
+
+#generate{
+    font-size:50px;
+    margin:10px;
+}
+
+#nameOutput1{
+    top:2600px;
+    font-size:200px;
     position:absolute;
-    top:41.5cm;
-    left:9cm;
-    font-size:90px;
-}
-.certificatey1 h2{
-    position:absolute;
-    top:45cm;
-    left:11.5cm;
-    font-size:49px;
-}
-.certificatey1 h3{
-    position:absolute;
-    top:48.5cm;
-    left:11.5cm;
-    font-size:20px;
-}
-.certificater1 h1{
-    position:absolute;
-    top:72cm;
-    left:10cm;
-    font-size:80px;
-}
-.certificater1 h2{
-    position:absolute;
-    font-size:45px;
-    left:12cm;
-    top:75.5cm;
-}
-.certificater1 h3{
-    position:absolute;
-    font-size:20px;
-    left:13cm;
-    top:80cm;
-}
-.right {
-    width: 25vw;
-    background-color: lightgray;
-    padding: 1em;
+    left:600px;
+    font-family: 'Lovers Quarrel', cursive;
 }

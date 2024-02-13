@@ -2,6 +2,119 @@
 @import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 
+.pagewrapper {
+    display: flex;
+}
+
+.left {
+    width: 75vw;
+}
+
+.right {
+    width: 25vw;
+}
+
+#certificate {
+    position: relative;
+}
+
+#certificate img {
+    display: none;
+    max-width: 100%;
+}
+
+#certificate.blue img.blue {
+    display: block;
+}
+
+#certificate.green img.green {
+    display: block;
+}
+
+#certificate.gov img.gov {
+    display: block;
+}
+
+#certificate.green #nameOutput{
+    position: absolute;
+    left:18%;
+    top: 49%;
+    font-size:5.5em;
+}
+#certificate.green #signatureOutput{
+    position:absolute;
+    left:65%;
+    top: 72%;
+}
+
+#certificate.green #theDate{
+    position:absolute;
+    left:18%;
+    top:76.5%;
+
+}
+
+#certificate.gov #nameOutput{
+    position: absolute;
+    left:5%;
+    top: 43%;
+    font-size:5em;
+}
+#certificate.gov #signatureOutput{
+    position:absolute;
+    left:42%;
+    top: 68%;
+    font-size:3em;
+}
+
+#certificate.gov #theDate{
+    position:absolute;
+    left:12%;
+    top:75%;
+
+}
+
+#certificate.blue #nameOutput {
+ position: absolute;
+ left:18%;
+ top: 40%;
+}
+
+#certificate.blue #signatureOutput {
+    position:absolute;
+    left:65%;
+    top: 65%;
+}
+
+#certificate.blue #theDate {
+    position:absolute;
+    left:19%;
+    top:71%;
+}
+
+#signatureOutput{
+    font-family: 'Lovers Quarrel', cursive;
+    font-size:4em;
+    width:10%;
+    text-align:end;
+}
+
+#nameOutput {
+    font-family: 'Love Light', cursive;
+    font-size: 6em;
+    width: 56%;
+    text-align: center;
+}
+
+#theDate{
+    font-size:1em;
+}
+#name{
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+/* 
 #theDate {
     font-size:50px;
     position: absolute;
@@ -130,6 +243,6 @@
     font-size:30px;
     margin:10px;
 }
-
+ */
 
 

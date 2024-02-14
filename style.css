@@ -20,7 +20,7 @@
 
 #certificate img {
     display: none;
-    min-width:100%;
+    max-width:100%;
 }
 
 #certificate.blue img.blue {

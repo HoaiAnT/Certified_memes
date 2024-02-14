@@ -20,7 +20,7 @@
 
 #certificate img {
     display: none;
-    max-width: 100%;
+    min-width:100%;
 }
 
 #certificate.blue img.blue {
@@ -76,13 +76,13 @@
 
 #certificate.blue #nameOutput {
  position: absolute;
- left:18%;
+ left:16%;
  top: 40%;
 }
 
 #certificate.blue #signatureOutput {
     position:absolute;
-    left:65%;
+    left:60%;
     top: 65%;
 }
 
